@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+
+} 
+.division {
+   background-color: white;
+}
+.first-children {
+    background-color: white;
+    font-family: 18px;
+    
+}
+#first-children-heading {
+    text-align: center;
+    color: purple;
+}
+#paragraph {
+    color: blueviolet;
+}
+.second-children {
+    background-color: white;
+}
+#second-children-heading {
+    text-align: center;
+}
+
+
