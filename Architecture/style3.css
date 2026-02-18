@@ -1,0 +1,72 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    padding: 4px;
+}
+
+.navigation {
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 0 0 5px rgb(70, 59, 59);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+
+.logo {
+    font-size: 18px;
+    color: black;
+    padding: 4px;
+}
+
+.logo:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 20px;
+    color: black;
+    padding: 4px;
+    font-weight: bold;
+
+}
+.listNaviagtion {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+    padding: 8px;
+}
+.listNaviagtion li {
+    padding: 4px;
+    color: black;
+}
+.HeroSection {
+   background-image: url(https://www.w3schools.com/w3images/architect.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100vh;    
+}
+.HeroSection-Text {
+    color: white;
+    padding: 20px;
+   text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#brhover {
+    background-color: rgb(61, 60, 60);
+    text-size-adjust: initial;
+   
+}
+
+   
